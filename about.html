@@ -2,7 +2,7 @@
 <html>
     <head>
         <!-- title, icon, and css link -->
-        <title>Re:Water Home Page</title>
+        <title>Re:Water About Us</title>
         <link rel="icon" type="image/x-con" href="./images/logo.png"/>
         <link rel="stylesheet" type="text/css" href="./stylesheet.css"/>
         <meta charset="utf-8">
@@ -39,6 +39,9 @@
                       <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
                   </li>
+                  <li>
+                    <a class="nav-link" href="./resources.html">Resources</a>
+                  </li>
                 </ul>
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -57,47 +60,79 @@
         </nav>
         <hr/>
         <img src="./images/TeamPhoto.png" width="800"/>
+		<br/>
         <p class="something"> Our team in Re:Water is made up of 4 people, Jack Yong, Jensen Wu,
              Makenna Manning, and Hafsa Okyay.</p>
-    <div class="card" style="width: 18rem;">
-        <img src="./images/JackYong.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Jack Yong</h3>
-          <p class="card-text">Jack Yong is our Cheif
-            Marketing Officer who, manages Marketing/Advertisements. 
-            </p>
-          <a href="#" class="btn btn-primary">Learn More</a>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="./images/JensenWu.jpeg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Jensen Wu</h3>
-          <p class="card-text">Jensen is our CEO. He manages 
-            everything and helps people out when needed. </p>
-          <a href="#" class="btn btn-primary">Learn More</a>
-        </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <img src="./images/MakennaManning.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Makenna Manning</h5>
-          <p class="card-text">Makenna 
-            Manning is one of our most trusted employees and 
-            she helps with design.</p>
-          <a href="#" class="btn btn-primary">Learn More</a>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="./images/HafsaOkyay.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Hafsa Okyay</h5>
-          <p class="card-text">Hafsa Okyay is another one of our most amazing 
-            employees that helps with anything that needs helping.</p>
-          <a href="#" class="btn btn-primary">Learn More</a>
-        </div>
-      </div>
-          
+
+		<div class="container">
+			<div class="row row-cols-4">
+				<div class="col">
+					<div class="card" style="width: 18rem;">
+						<img src="./images/MakennaManning.png" class="card-img-top" alt="...">
+						<div class="card-body">
+						<h5 class="card-title">Makenna Manning</h5>
+						<p class="card-text">Makenna 
+							Manning is one of our most trusted employees and 
+							she helps with design.</p>
+							<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+								Learn More
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="row row-cols-4">
+					<div class="card" style="width: 18rem;">
+						<img src="./images/JackYong.png" class="card-img-top" alt="...">
+						<div class="card-body">
+						<h5 class="card-title">Jack Yong</h3>
+						<p class="card-text">Jack Yong is our Chief
+							Marketing Officer who, manages Marketing/Advertisements. 
+							</p>
+						<a href="#" class="btn btn-primary">Learn More</a>
+						</div>
+					</div>
+				</div>
+				<div class="row row-cols-4">
+					<div class="card" style="width: 18rem;">
+						<img src="./images/jensenwu.png" class="card-img-top" alt="...">
+						<div class="card-body">
+						<h5 class="card-title">Jensen Wu</h3>
+						<p class="card-text">Jensen is our CEO. He manages 
+							everything and helps people out when needed. </p>
+						<a href="#" class="btn btn-primary">Learn More</a>
+						</div>
+					</div>
+				</div>
+				<div class="row row-cols-4">
+					<div class="card" style="width: 18rem;">
+						<img src="./images/hafsaokyay.png" class="card-img-top" alt="...">
+						<div class="card-body">
+						<h5 class="card-title">Hafsa Okyay</h5>
+						<p class="card-text">Hafsa Okyay is another one of our most amazing 
+							employees that helps with anything that needs helping.</p>
+						<a href="#" class="btn btn-primary">Learn More</a>
+						</div>
+					</div>  
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+			<div class="modal-dialog">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+				  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+				  ...
+				</div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+				  <button type="button" class="btn btn-primary">Save changes</button>
+				</div>
+			  </div>
+			</div>
+		  </div> 
     </body>
 
 </html> 
