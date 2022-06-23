@@ -1,4 +1,7 @@
 https://prod.liveshare.vsengsaas.visualstudio.com/join?7839041DB6C0808A813026A8B91FF5FAAB0E
 
 
-NEED TO ADD IMAGES FOR TEAM PHOTO ABOUT US
+Todo: 
+
+Sponsorships?
+liscecne or some thing at bottom
