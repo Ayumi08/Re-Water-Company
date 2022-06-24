@@ -4,4 +4,4 @@ https://prod.liveshare.vsengsaas.visualstudio.com/join?7839041DB6C0808A813026A8B
 Todo: 
 
 Sponsorships?
-liscecne or some thing at bottom
+or some thing at bottom
