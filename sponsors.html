@@ -26,7 +26,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+                        <a class="nav-link" href="./home.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./about.html">About Us</a>
@@ -47,7 +47,7 @@
                         <a class="nav-link" href="./donate.html">Donate</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="./sponsors.html">Sponsorship Program</a>
+                        <a class="nav-link active" aria-current="page" href="./sponsors.html">Sponsorship Program</a>
                     </li>
                     </ul>
 
@@ -60,32 +60,61 @@
             </div>
         </nav>
 
-        <div class="container"> <!-- A row so splits page in half -->
-            <div class="row row-cols-2">
-                <div class="col">
-                    <p class="title">Our Newest Product:</p>
-                    <p>The CloudSweeper78Max, our newest product, uses state of the art technology to move clouds.</p>
-                    <a href="./cloudsweeper78max.html">
-                        <button type="button" class="btn btn-primary" href="./cloudsweeper78max.html">See More</button>
-                    </a>
-                </div>
-                <div class="col">
-                    <img style="border-style: solid" src="./images/helicopter.png"/>
-                </div>
-            </div>
-        </div>
-        <hr/>
-        <p class="title" style="text-align:center">Our Sponsors: </p>
-        <div style="text-align: center;">
-            <img width="600" src="./images/guineapigs.jpeg"/>
-        </div>
-        <p style="text-align: center;">We don't have sponsors yet, Check out the sponsorship page below.</p>
+        <p class="title">Our Sponsorship Program:</p>
+        <br/>
         <div style="text-align:center;">
-            <a href="./sponsors.html">
-                <button type="button" class="btn btn-primary">Sponsorship Program</button>
-            </a>
+            <p>We currently do not have any sponsors. Click below to file for a sponsorship proposal.</p>
+            <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">File for Sponsorship</a>
         </div>
-        <hr/>
-    </body>
 
-</html> 
+        
+        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalToggleLabel">Sponsorship Form Request</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                          <label for="name-name" class="col-form-label">Name:</label>
+                          <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="conpanyname-name" class="col-form-label">Conpany Name:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="mb-3">
+                          <label for="message-text" class="col-form-label">Message:</label>
+                          <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                      </form>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Submit</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalToggleLabel2">Sponsorship Form Request</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    This is a fake company. You cannot sponsor to a fake company. Thank you for your interest.
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Go Back to Form</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        
+        
+    </body>
+</html>
